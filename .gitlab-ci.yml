@@ -18,7 +18,8 @@ test:
   stage: test
   image: golang:1.15
   script:
-    - echo "No tests!"
+    - echo "Running tests!"
+    - go test ./...
 
 lint:
   stage: test
